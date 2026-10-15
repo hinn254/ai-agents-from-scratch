@@ -1,11 +1,12 @@
 {
   "name": "first-ai-agent",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A minimal AI agent: a Kenyan phone shop assistant built with the Vercel AI SDK and a hand-written tool-calling loop.",
   "scripts": {
     "dev": "tsx src/index.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@types/node": "^26.6.4",
+    "prettier": "3.9.10",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
